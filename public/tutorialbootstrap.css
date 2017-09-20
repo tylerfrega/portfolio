@@ -1,0 +1,238 @@
+*
+{
+
+	margin: 0;
+	padding:0;
+
+}
+
+.row
+{
+	max-width:1140px;
+	margin:0 auto;
+}
+
+body
+{
+	font-family: tahoma;
+	
+
+
+}
+
+.hero
+{
+	position: absolute;
+	width:1140px;
+	top:50%;
+	left: 40%;
+	transform: translate(-35%, -25%);
+
+}
+.hero h1
+{
+	font-size: 50pt;
+	font-family: Bahiana;
+
+}
+strong
+{
+	font-weight: bold;
+
+
+}
+
+header
+{
+		background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url('portBackground.png');
+		height:100vh;
+		background-position: center;
+		background-size:cover;
+		color: white;
+		text-align: center;
+		
+		background-attachment: fixed;
+
+
+
+}
+.navbar
+{
+	height: 45px;
+	background-color: #8A0E0E;
+}
+
+.nav
+{
+	list-style: none;
+	float:right;
+	margin-top: 0px;
+
+}
+.nav li
+{
+	display: inline-block;
+	margin-left: 10px;
+	color: black;
+	margin-right:10px;
+	margin-top: 15px;
+
+}
+
+.nav li a 
+{
+	color:black;
+	text-decoration: none; 
+	font-size: 90%;
+	font-weight: bold;
+}
+
+.nav li a:hover
+{
+ 	
+ 	border-bottom: 2px solid #0059b3;
+ 	transition:all 0.5s ease-in;
+ 	
+}
+
+
+.logo img
+{
+	height: 45px;
+	width:100px;
+	float: left;
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-left: 90px;
+	
+
+}
+
+.btn 
+{
+	border:1px solid white;
+	padding:10px 30px;
+	color:#0059b3;
+	text-decoration:none;
+	border-radius: 12px;
+	margin-right: 15px;
+}
+.button 
+{
+	margin-top: 40px;
+}
+
+.btn-half
+{
+	background-color:#0059b3;
+	color: white; 
+}
+
+.btn-full:hover
+{
+	background-color: #ff751a
+;
+	color: white;
+	transition:all 3s ease-in;
+}
+
+.features h3
+{
+	color: black;
+	margin-top:60px;
+	margin-bottom: 30px;
+	font-family: Bahiana;
+	font-size: 30pt;
+}
+
+
+h3:after
+{
+	width:100px;
+	height:2px;
+	background-color:#0059b3;
+	display: block;
+	content: " ";
+	margin:0 auto;
+	margin-top:30px;
+}
+
+.text-center
+{
+	text-align: center;
+}
+
+.text-content
+{
+	width: 70%;
+	margin-left:15%;
+	color:black;
+	text-align: center;
+	font-size: 15pt;
+}
+
+
+.arrangement
+{
+	text-align: justify;
+}
+
+
+
+.content {
+	border: solid #ff751a;
+	border-radius: 3px;
+	background-color: lightgray;
+	margin: 10px;
+	padding: 10px ;
+}
+.content h4
+{
+	color: #0059b3 ;
+	text-align: center;
+	font-family: Bahiana;
+	font-size: 20pt;
+}
+
+.gym-showcase
+{
+	list-style: none;
+	width:100%;
+}
+
+.gym-showcase li 
+{
+	display:block;
+	width:25%;
+	float: left;
+}
+
+.gym-photos
+{
+	width:100%;
+	margin:0;
+	overflow:auto;
+	transform: scale(1.15);
+	transition: all 0.5s;
+}
+.gym-photos img
+{
+	width: 350px;
+	height: 200px;
+	border: solid #ff751a 5px;
+
+	
+}
+.gym-photos img:hover
+{
+	transform: scale(1.15);
+}
+
+.pics
+{
+	margin-top: 60px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+
+}
