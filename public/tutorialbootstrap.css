@@ -56,7 +56,7 @@ nav {
     line-height: 35px;
 }
 
-.btn-large{
+.btn, .btn-large{
 	background-color: Transparent;
 	background-repeat:no-repeat;
 	border: none;
@@ -64,12 +64,15 @@ nav {
 	overflow: hidden;
 
 }
+
+	
+
  a .btn :hover {
 	background-color: white;
  }
 
 .card-panel{
-	background-color: #83a7a3;
+	background-color: #306a6b;
 	margin-left:10px;
 	margin-right:10px;
 }
@@ -139,5 +142,46 @@ nav {
 
 .icons{
 	margin: 10px;
+}
+
+#portfolio{
+	margin: auto;
+	height: 100%;
+	position: relative;
+	background-color: #424141;
+	
+}
+
+#portfolioSection{
+	margin: auto;
+	height:60%;
+	width: 100%;
+	position: relative;
+	top:10%;
+	background-color: #306a6b;
+	background-image: url('8.jpg');
+	background-position: center bottom;
+}
+
+#portfolio h1{
+	margin: auto;
+	position: relative;
+	top: 50px;
+	border-bottom: 5px solid #FFFFFF;
+	width: 273px;
+}
+
+#portfolioBtn{
+	position: relative;
+	margin-left:43%;
+}
+
+.card{
+	margin-left:10px;
+	margin-right:10px;
+	background-color: #306a6b;
+	position: relative;
+	height: 50%;
+
 }
 
