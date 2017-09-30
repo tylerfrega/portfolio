@@ -171,7 +171,7 @@ nav {
 	width: 273px;
 }
 
-#portfolioBtn{
+.sectionBtn{
 	position: relative;
 	margin-left:43%;
 }
@@ -185,3 +185,32 @@ nav {
 
 }
 
+.modal{
+	max-height: 100%;
+	width:80%;
+	overflow-y: hidden;
+}
+
+.modal-content{
+	position: relative;
+	margin-right:0px;
+	margin-left: 40px;
+	
+}
+
+.modal-header{
+	margin-bottom: 5px;
+}
+
+.modal-image{
+	margin-left: 10px;
+}
+
+.modal p{
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.portfolioBtn{
+	background-color: #424141;
+}
