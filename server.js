@@ -22,8 +22,35 @@ router.get('/',  function(req, res){
 });
 
 
+app.post('/contact', function (req, res) {
+ 
+  var transporter = nodemailer.createTransport({
+    service: 'Gmail',
+    auth: {
+        user: 'tyfrega@gmail.com', // Your email id
+        pass: '' // Your password
+    }
+});
 
+var mailOptions = {
+  from: req.body.email, 
+  to: 'tyfrega@gmail.com', 
+  subject: 'Email Example', 
+  text: req.body.messege 
+  
+};
+console.log(req.body)
+transporter.sendMail(mailOptions, function(error, info){
+  if(error){
+      console.log(error);
+      console.log(res.json({yo: 'error'}));
+  }else{
+      console.log('Message sent: ' + info.response);
+      
+  };
+});
 
+});
 
 
 

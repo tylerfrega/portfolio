@@ -28,3 +28,18 @@ $(window).scroll(function(){
 
 
 });
+
+
+$('#submit').on('click', function(){
+    $.ajax({
+        method: "POST",
+        url: "/contact",
+        data: {
+                name: $('#name').val(),
+                email: $('#email').val(),
+                messege: $('#messege').val()   
+                         
+              },
+        success: alert('sent')
+    });
+})
