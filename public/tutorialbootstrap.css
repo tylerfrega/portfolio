@@ -5,6 +5,7 @@ body
 	background-position: 0px -100px;
 	font-family: tahoma;
 	background-color: #1C1F33;
+	background-attachment: fixed;
 }
 
 .hero{
@@ -62,6 +63,8 @@ nav {
 	border: none;
 	cursor:pointer;
 	overflow: hidden;
+	margin: auto;
+	text-align:center;
 
 }
 
@@ -142,13 +145,17 @@ nav {
 
 .icons{
 	margin: 10px;
+	margin-bottom:0px;
+	position: relative;
+
 }
 
 #portfolio{
 	margin: auto;
 	height: 100%;
 	position: relative;
-	background-color: #424141;
+	background-color: #212125;
+	
 	
 }
 
@@ -163,6 +170,14 @@ nav {
 	background-position: center bottom;
 }
 
+.portfolioItem{
+	text-align: center;
+	position: relative;
+	padding-top:10px;
+	font-family: Bahiana;
+	color: white;
+}
+
 #portfolio h1{
 	margin: auto;
 	position: relative;
@@ -171,17 +186,19 @@ nav {
 	width: 273px;
 }
 
+
+
 .sectionBtn{
 	position: relative;
-	margin-left:43%;
+	margin-left:45%;
 }
 
 .card{
 	margin-left:10px;
 	margin-right:10px;
-	background-color: #306a6b;
+	background-color: #8A807F;
 	position: relative;
-	height: 50%;
+	height: auto;
 
 }
 
@@ -194,7 +211,7 @@ nav {
 .modal-content{
 	position: relative;
 	margin-right:0px;
-	margin-left: 40px;
+	
 	
 }
 
@@ -202,15 +219,122 @@ nav {
 	margin-bottom: 5px;
 }
 
-.modal-image{
-	margin-left: 10px;
-}
+
 
 .modal p{
 	margin-top: 0px;
 	padding-top: 0px;
 }
 
-.portfolioBtn{
-	background-color: #424141;
+
+
+#contactMe{
+	height:100%;
+
 }
+
+
+#contactMeSection{
+	margin: auto;
+	height:60%;
+	width: 100%;
+	position: relative;
+	top:10%;
+	
+	
+}
+
+#contactMe h1{
+	margin: auto;
+	position: relative;
+	top: 50px;
+	border-bottom: 5px solid #FFFFFF;
+	width: 220px;
+}
+
+.page-footer{
+	height: 10%;
+	background-image: url('8.jpg');
+}
+
+.modal-trigger  {
+	display: block;
+	width: 100%;
+	height: auto;
+	
+}
+
+
+#contactMe{
+	background-image: url("8.jpg");
+	background-position: bottom left;
+	background-attachment: fixed;
+}
+
+#contactForm{
+	position: relative;
+	margin-top:50px;
+	color:white;
+}
+
+#findMe{
+	
+	font-family: Bahiana;
+	color:white;
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom:50px;
+}
+
+.gymSite{
+	margin-right: 10px;
+}
+
+#icons a:hover{
+	transition:  0.6s ease-out;
+	transform: rotate(720deg);
+}
+
+.imageContainer{
+	position: relative;
+	width: 50%;
+	margin-left:5px;
+	margin-right:5px;
+	margin-bottom: 10px;
+
+}
+
+#concertBuddy{
+	margin:0px;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 100%;
+	left: 0;
+	right: 0;
+	background-color: #306a6b;
+	overflow: hidden;
+	width: 195%;
+	height:0;
+	transition: .5s ease;
+  }
+
+  .imageContainer:hover .overlay {
+	bottom: 0;
+	height: 100%;
+  }
+
+
+  
+.text {
+	white-space: nowrap; 
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+  }

@@ -1,17 +1,30 @@
 $(document).ready(function(){
-    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
     $('.modal').modal();
+     $('.trigger-modal').modal();
     
-            //now you can open modal from code
-            $('.trigger-modal').modal();
-    
+$(".aboutMeBtn").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#aboutMe").offset().top},
+        'slow');
+});
+
+$(".portfolioBtn").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#portfolio").offset().top},
+        'slow');
+});
+
+$(".contactMeBtn").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#contactMe").offset().top},
+        'slow');
+});
+
+
+$(window).scroll(function(){
+    $(".fade-scroll").css("opacity", 1 - $(window).scrollTop() / 250);
   });
 
 
 
-
-$("#aboutMeBtn").click(function() {
-    $('html,body').animate({
-        scrollTop: $("#aboutMe").offset().top},
-        'slow');
 });
