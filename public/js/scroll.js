@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $('.modal').modal();
-     $('.trigger-modal').modal();
+    // $('.trigger-modal').modal();
     
 $(".aboutMeBtn").click(function() {
     $('html,body').animate({
@@ -37,9 +37,8 @@ $('#submit').on('click', function(){
         data: {
                 name: $('#name').val(),
                 email: $('#email').val(),
-                messege: $('#messege').val()   
-                         
+                messege: $('#messege').val()              
               },
-        success: alert('sent')
+        success:   $('.modal').modal()
     });
-})
+});

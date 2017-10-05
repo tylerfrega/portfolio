@@ -27,15 +27,15 @@ app.post('/contact', function (req, res) {
   var transporter = nodemailer.createTransport({
     service: 'Gmail',
     auth: {
-        user: 'tyfrega@gmail.com', // Your email id
-        pass: '' // Your password
+        user: 'tylerfregaWebDev@gmail.com', // Your email id
+        pass: 'hotspur730' // Your password
     }
 });
 
 var mailOptions = {
   from: req.body.email, 
-  to: 'tyfrega@gmail.com', 
-  subject: 'Email Example', 
+  to: 'tylerfregaWebDev@gmail.com', 
+  subject: 'Email from ' + req.body.email, 
   text: req.body.messege 
   
 };
@@ -46,6 +46,7 @@ transporter.sendMail(mailOptions, function(error, info){
       console.log(res.json({yo: 'error'}));
   }else{
       console.log('Message sent: ' + info.response);
+      //res.render('index');
       
   };
 });

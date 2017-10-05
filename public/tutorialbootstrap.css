@@ -56,7 +56,8 @@ strong{
 
 .nav-wrapper{
 	
-	background-color: #04061A;
+	background-color: #000102;
+	
 	
 }
 nav {
@@ -98,17 +99,17 @@ nav {
 #aboutMe h1{
 	margin: auto;
 	position: relative;
-	top: 50px;
+	top: 15px;
 	border-bottom: 5px solid #FFFFFF;
 	width: 200px;
 }
 
 #aboutMeSection{
 	margin: auto;
-	height:60%;
+	height:80%;
 	width: 100%;
 	position: relative;
-	top:10%;
+	top:4%;
 	background-color: #306a6b;
 	background-image: url('18.jpg');
 	background-position: center right;
@@ -284,6 +285,7 @@ nav {
 
 #contactForm{
 	position: relative;
+	left:50px;
 	margin-top:50px;
 	color:white;
 }
@@ -350,4 +352,19 @@ nav {
 	-ms-transform: translate(-50%, -50%);
   }
 
- 
+#tools{
+	position: relative;
+	top: -40px;
+}
+
+#tools h3{
+	text-align: center;
+	position: relative;
+	margin-bottom: 2px;
+	padding-top:0px;
+	padding-bottom: 0px;
+	font-family: Bahiana;
+	color: white;
+	
+}
+
