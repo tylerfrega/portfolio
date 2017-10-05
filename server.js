@@ -4,7 +4,7 @@ var path = require('path');
 var nodemailer = require("nodemailer");
 var app = express();
 var router = express.Router();
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 
 
