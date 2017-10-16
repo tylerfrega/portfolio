@@ -28,7 +28,7 @@ app.post('/contact', function (req, res) {
     service: 'Gmail',
     auth: {
         user: 'tylerfregaWebDev@gmail.com', // Your email id
-        pass: 'hotspur730' // Your password
+        pass: '' // Your password
     }
 });
 
