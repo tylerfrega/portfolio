@@ -374,25 +374,45 @@ nav {
 
 @media screen and (max-width: 480px) {
     #aboutMe {
-        height: 200%;
+        height: 160%;
+	}
+	#aboutMeSection {
+        height: 160%;
 	}
 	#aboutMe h1 {
-	
 		margin-bottom: -20px;
 	}
 	
+	
 	#portfolio {
-        height: 230%;
+        height: 190%;
 	}
 
 	#portfolioSection {
-        height: 230%;
+        height: 190%;
 	}
 
 
 	#portfoilo h1 {
-		
 			margin-bottom: -80px;
+		}
+	
+	#portfolio img {
+		height: 250px;
+		width:400px;
+		margin-left:10px;
+		}
+
+	.modal{	
+			font-size: 11px;
+			overflow: auto;
+		}
+	.modalPic{	
+			display: none;
+		}
+
+	.modalGif{	
+			height: 150px;
 		}
 	
 	
