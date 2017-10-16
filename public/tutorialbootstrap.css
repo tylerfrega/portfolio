@@ -374,22 +374,21 @@ nav {
 
 @media screen and (max-width: 480px) {
     #aboutMe {
-        height: 160%;
+        height: 220%;
 	}
 	#aboutMeSection {
-        height: 160%;
+        height: 220%;
 	}
 	#aboutMe h1 {
 		margin-bottom: -20px;
 	}
 	
-	
 	#portfolio {
-        height: 190%;
+        height: 220%;
 	}
 
 	#portfolioSection {
-        height: 190%;
+        height: 220%;
 	}
 
 
@@ -398,8 +397,8 @@ nav {
 		}
 	
 	#portfolio img {
-		height: 250px;
-		width:400px;
+		height: 230px;
+		width:370px;
 		margin-left:10px;
 		}
 
