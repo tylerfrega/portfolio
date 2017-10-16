@@ -374,21 +374,21 @@ nav {
 
 @media screen and (max-width: 480px) {
     #aboutMe {
-        height: 220%;
+        height: 205%;
 	}
 	#aboutMeSection {
-        height: 220%;
+        height: 205%;
 	}
 	#aboutMe h1 {
 		margin-bottom: -20px;
 	}
 	
 	#portfolio {
-        height: 220%;
+        height: 205%;
 	}
 
 	#portfolioSection {
-        height: 220%;
+        height: 205%;
 	}
 
 
@@ -396,10 +396,10 @@ nav {
 			margin-bottom: -80px;
 		}
 	
-	#portfolio img {
-		height: 230px;
-		width:370px;
-		margin-left:10px;
+	.picture {
+		height: 210px;
+		width:350px;
+		margin-left:5px;
 		}
 
 	.modal{	
@@ -410,8 +410,8 @@ nav {
 			display: none;
 		}
 
-	.modalGif{	
-			height: 150px;
+	.modal-image{	
+			height:150px;
 		}
 	
 	
